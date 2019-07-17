@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node ./bin/www",
     "test": "",
-    "build": ""
+    "build": "",
+    "reset": "rimraf ./tmp/*"
   },
   "dependencies": {
     "accepts": "^1.3.5",
